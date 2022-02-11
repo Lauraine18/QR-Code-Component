@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+:root{
+
+    --white:rgb(255, 255, 255);
+    --Grayish-blue: hsl(220, 15%, 55%);
+      --black: rgb(0, 0, 0);
+    --Light-gray: hsl(212, 44%, 83%);
+}
+
+body{
+    background-color: var(--Grayish-blue);
+}
+h2{
+    color:var(--black);
+    font-family: outfit;
+    position: relative;
+    top:-15px;
+    right:-20px;
+    font-size:23px;
+}
+
+h3{
+    color:var(--Light-gray);
+    font-family: outfit;
+    position: relative;
+    top:-15px;
+    right:-20px;
+    font-size:15px;
+}
+
+img{
+    width: 100%;
+  height: auto;
+  position:relative;
+  border-radius: 15px;
+  top:-10px;
+}
+
+span{
+    position: relative;
+    right:-4.5px;
+}
+
+.background{
+    position: relative;
+    bottom:-50px;
+}
+.background-image{
+    background-color: white;
+    width: 300px;
+    border: 15px solid rgb(255, 255, 255);
+    margin: auto;
+    padding: 10px 5px;
+    border-radius: 15px;
+}
+
+.next-level{
+    position: relative;
+    right:-80px;
+}
+
+@media only screen and (min-width:375px){
+
+}
+
+
+@media only screen and  (max-width:1440px) {
+    
+}
+
+
+    
