@@ -1,73 +1,62 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
-:root{
 
-    --white:rgb(255, 255, 255);
-    --Grayish-blue: hsl(220, 15%, 55%);
-      --black: rgb(0, 0, 0);
-    --Light-gray: hsl(212, 44%, 83%);
+:root {
+  --white: hsl(0, 0%, 100%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+  --light-gray: hsl(212, 45%, 89%);
 }
 
-body{
-    background-color: var(--Grayish-blue);
-}
-h2{
-    color:var(--black);
-    font-family: outfit;
-    position: relative;
-    top:-15px;
-    right:-20px;
-    font-size:23px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-h3{
-    color:var(--Light-gray);
-    font-family: outfit;
-    position: relative;
-    top:-15px;
-    right:-20px;
-    font-size:15px;
+body {
+  font-family: outfit;
 }
 
-img{
-    width: 100%;
-  height: auto;
-  position:relative;
+h1 {
+  color: var(--dark-blue);
+  font-size: 23px;
+  text-align: center;
+}
+
+p {
+  color: var(--grayish-blue);
+  text-align: center;
+}
+
+figure {
+  margin: 0;
+  display: grid;
+}
+
+img {
+  width: 100%;
   border-radius: 15px;
-  top:-10px;
 }
 
-span{
-    position: relative;
-    right:-4.5px;
-}
+.background {
+  padding: 3rem 5vw;
+  background-color: var(--light-gray);
+  min-height: 100vh;
 
-.background{
-    position: relative;
-    bottom:-50px;
-}
-.background-image{
-    background-color: white;
-    width: 300px;
-    border: 15px solid rgb(255, 255, 255);
-    margin: auto;
-    padding: 10px 5px;
-    border-radius: 15px;
-}
-
-.next-level{
-    position: relative;
-    right:-80px;
-}
-
-@media only screen and (min-width:375px){
+  display: grid;
+  place-content: center;
 
 }
 
-
-@media only screen and  (max-width:1440px) {
-    
+.card {
+  background-color: var(--white);
+  max-width: 300px;
+  padding: 1.5rem;
+  border-radius: 15px;
 }
 
-
-    
+.content {
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
